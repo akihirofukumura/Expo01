@@ -10,3 +10,15 @@ header > div {
 header > div img {
   width: 110px;
 }
+
+main > div {
+  height: 201px;
+  border: solid 3px tomato;
+}
+
+main > div p {
+  width: 100%;
+  font-size: 18px;
+  font-family: "A P-OTF Shin Maru Go Pr6N", sans-serif;
+  margin: 145px 150px;
+}
