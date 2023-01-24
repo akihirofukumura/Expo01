@@ -6,14 +6,6 @@ html {
   font-size: 62.5%;
 }
 
-a {
-  display: flex;
-  justify-content: space-around;
-  gap: 180px;
-  width: 100%;
-  text-decoration: none;
-  color: #000000;
-}
 /* ここからアイコンと名前 */
 header > div {
   width: 100%;
@@ -51,14 +43,21 @@ main .informaition {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  justify-content: space-around;
-  gap: 180px;
 }
 
 .user p {
   font-family: "A P-OTF Shin Maru Go Pr6N";
   font-size: 1.5em;
   /* padding: 30px; */
+}
+
+.user > a {
+  display: flex;
+  justify-content: space-around;
+  gap: 180px;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
 }
 
 /* 送り先住所設定 */
@@ -68,12 +67,18 @@ main .informaition {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  justify-content: space-around;
-  gap: 130px;
 }
 
 .address p {
   font-family: "A P-OTF Shin Maru Go Pr6N";
   font-size: 1.5em;
-  padding: 30px;
+}
+
+.address > a {
+  display: flex;
+  justify-content: space-around;
+  gap: 130px;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
 }
