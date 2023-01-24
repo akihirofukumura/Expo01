@@ -2,6 +2,9 @@ body {
   background-color: #ffedc9;
 }
 
+html {
+  font-size: 62.5%;
+}
 /* ここからアイコンと名前 */
 header > div {
   width: 100%;
@@ -16,25 +19,19 @@ header > div img {
   width: 110px;
 }
 
-main > div {
-  height: auto;
-  /* border: solid 3px tomato; */
-}
-
-main > div p {
+main > .profile p {
   width: 100%;
   font-size: 18px;
   font-family: "A P-OTF Shin Maru Go Pr6N", sans-serif;
   text-align: center;
   margin-top: 150px;
-  margin-bottom: 0;
 }
 
 /* 登録情報と送り先住所設定を包括している範囲 */
 main .informaition {
   width: 100%;
   height: 300px;
-  border: tomato 4px solid;
+  /* border: tomato 4px solid; */
   /* border: solid 1px#cbcbcb; */
 }
 
@@ -42,4 +39,15 @@ main .informaition {
 .user {
   height: 50px;
   background-color: #ffff;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-around;
+  gap: 180px;
+}
+
+.user p {
+  font-family: "A P-OTF Shin Maru Go Pr6N";
+  font-size: 1.5em;
+  padding: 30px;
 }
