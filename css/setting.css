@@ -31,8 +31,8 @@ main > .profile p {
 /* 登録情報と送り先住所設定を包括している範囲 */
 main .informaition {
   width: 100%;
-  height: 300px;
-  border: tomato 4px solid;
+  height: 160px;
+  /* border: tomato 4px solid; */
   /* border: solid 1px#cbcbcb; */
 }
 
@@ -81,4 +81,82 @@ main .informaition {
   width: 100%;
   text-decoration: none;
   color: #000000;
+}
+
+/* ここから利用規約など */
+.terms {
+  height: 50px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  /* margin-top: 20px; */
+  border-bottom: #a9a3a3 1px solid;
+}
+
+.terms > a {
+  display: flex;
+  justify-content: space-around;
+  gap: 180px;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.terms p {
+  font-family: "A P-OTF Shin Maru Go Pr6N";
+  font-size: 1.5em;
+  /* padding: 30px; */
+}
+
+.private {
+  height: 50px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  border-bottom: #a9a3a3 1px solid;
+  /* margin-top: 20px; */
+}
+
+.private > a {
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.private p {
+  font-family: "A P-OTF Shin Maru Go Pr6N";
+  font-size: 1.5em;
+  /* padding: 30px; */
+}
+
+.help {
+  height: 50px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+
+.help > a {
+  display: flex;
+  justify-content: space-around;
+  gap: 190px;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.help p {
+  font-family: "A P-OTF Shin Maru Go Pr6N";
+  font-size: 1.5em;
+  /* padding: 30px; */
+}
+
+.puestion {
+  position: absolute;
+  margin-right: 200px;
+  margin-top: 7px;
 }
