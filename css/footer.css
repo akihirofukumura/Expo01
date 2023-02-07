@@ -16,8 +16,8 @@ footer > .circle-wrap {
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translateX(-66%);
-  width: 100%;
+  transform: translateX(-53%);
+  width: 145%;
   height: 90px;
   background-color: #664735;
   border-radius: 50% 50% 0 0;
